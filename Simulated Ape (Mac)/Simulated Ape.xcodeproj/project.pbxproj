@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A32507E235CB09500C27212 /* apesdk.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A32507D235CB09500C27212 /* apesdk.xib */; };
+		4A511849240793DF00AF741A /* skeleton.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A511848240793DF00AF741A /* skeleton.c */; };
+		4A6C0DAF2818315700EA517B /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C0DAD2818315700EA517B /* audio.c */; };
+		4A6C0DB02818315700EA517B /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C0DAE2818315700EA517B /* console.c */; };
+		4A6C91BC2355965600BB2D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A6C91BB2355965600BB2D5A /* Assets.xcassets */; };
+		4A6C91D92356D5BC00BB2D5A /* land.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C91D52356D5BC00BB2D5A /* land.c */; };
+		4A6C91DA2356D5BC00BB2D5A /* territory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C91D72356D5BC00BB2D5A /* territory.c */; };
+		4A6C91DB2356D5BC00BB2D5A /* tile.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C91D82356D5BC00BB2D5A /* tile.c */; };
+		4A6C91DF2356D5D500BB2D5A /* interpret.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C91DD2356D5D500BB2D5A /* interpret.c */; };
+		4A6C91E02356D5D500BB2D5A /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C91DE2356D5D500BB2D5A /* parse.c */; };
+		4A6C922A2356D67C00BB2D5A /* brain.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92202356D67C00BB2D5A /* brain.c */; };
+		4A6C922B2356D67C00BB2D5A /* body.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92212356D67C00BB2D5A /* body.c */; };
+		4A6C922C2356D67C00BB2D5A /* drives.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92232356D67C00BB2D5A /* drives.c */; };
+		4A6C922D2356D67C00BB2D5A /* speak.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92252356D67C00BB2D5A /* speak.c */; };
+		4A6C922E2356D67C00BB2D5A /* food.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92262356D67C00BB2D5A /* food.c */; };
+		4A6C922F2356D67C00BB2D5A /* being.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92272356D67C00BB2D5A /* being.c */; };
+		4A6C92302356D67C00BB2D5A /* episodic.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92282356D67C00BB2D5A /* episodic.c */; };
+		4A6C92312356D67C00BB2D5A /* social.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92292356D67C00BB2D5A /* social.c */; };
+		4A6C92452356D7B400BB2D5A /* loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C923F2356D7B400BB2D5A /* loop.c */; };
+		4A6C92462356D7B400BB2D5A /* transfer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92402356D7B400BB2D5A /* transfer.c */; };
+		4A6C92472356D7B400BB2D5A /* command.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92422356D7B400BB2D5A /* command.c */; };
+		4A6C92482356D7B400BB2D5A /* sim.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92432356D7B400BB2D5A /* sim.c */; };
+		4A6C924D2356D7CE00BB2D5A /* shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92492356D7CE00BB2D5A /* shared.c */; };
+		4A6C924E2356D7CE00BB2D5A /* message.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C924B2356D7CE00BB2D5A /* message.c */; };
+		4A6C924F2356D7CE00BB2D5A /* draw.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C924C2356D7CE00BB2D5A /* draw.c */; };
+		4A6C92502E9A0000BB2D5A00 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C92512E9A0000BB2D5A00 /* buffer.c */; };
+		4A7CB88225135FDC00ADDFCD /* immune.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CB88125135FDC00ADDFCD /* immune.c */; };
+		4A8F16882541778F0013832D /* graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F16862541778F0013832D /* graph.c */; };
+		4AB8FED82BC0965900B311AD /* spacetime.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8FED72BC0965900B311AD /* spacetime.c */; };
+		4AE05E782DA17AC100AB3C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E752DA17AC100AB3C8F /* AppDelegate.swift */; };
+		4AE05E792DA17AC100AB3C8F /* ASShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E772DA17AC100AB3C8F /* ASShared.swift */; };
+		4AE05E7A2DA17AC100AB3C8F /* ASMacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E762DA17AC100AB3C8F /* ASMacView.swift */; };
+		4AE05E7F2DA17C1D00AB3C8F /* ASSimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E7C2DA17C1D00AB3C8F /* ASSimulationView.swift */; };
+		4AE05E812E9B0000AB3C8F0A /* SimulationBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E802E9B0000AB3C8F0A /* SimulationBindings.swift */; };
+		4AFCD5C624084B9600CD9A43 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5BB24084B9500CD9A43 /* io.c */; };
+		4AFCD5C824084B9600CD9A43 /* vect.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5BD24084B9500CD9A43 /* vect.c */; };
+		4AFCD5CA24084B9600CD9A43 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5C124084B9500CD9A43 /* object.c */; };
+		4AFCD5CB24084B9600CD9A43 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5C224084B9500CD9A43 /* memory.c */; };
+		4AFCD5CC24084B9600CD9A43 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5C324084B9600CD9A43 /* file.c */; };
+		4AFCD5CD24084B9600CD9A43 /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5C424084B9600CD9A43 /* math.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A32507D235CB09500C27212 /* apesdk.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = apesdk.xib; path = ../apesdk/macsim/apesdk.xib; sourceTree = "<group>"; };
+		4A511848240793DF00AF741A /* skeleton.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = skeleton.c; path = ../apesdk/entity/skeleton.c; sourceTree = "<group>"; };
+		4A6C0DAD2818315700EA517B /* audio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = audio.c; path = ../apesdk/sim/audio.c; sourceTree = "<group>"; };
+		4A6C0DAE2818315700EA517B /* console.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = console.c; path = ../apesdk/sim/console.c; sourceTree = "<group>"; };
+		4A6C0DB22818352000EA517B /* shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shared.h; path = ../apesdk/shared.h; sourceTree = "<group>"; };
+		4A6C91B52355965200BB2D5A /* Simulated Ape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simulated Ape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6C91BB2355965600BB2D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A6C91C02355965600BB2D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6C91C32355965600BB2D5A /* Simulated_Ape.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simulated_Ape.entitlements; sourceTree = "<group>"; };
+		4A6C91D52356D5BC00BB2D5A /* land.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = land.c; path = ../apesdk/sim/land.c; sourceTree = "<group>"; };
+		4A6C91D62356D5BC00BB2D5A /* sim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sim.h; path = ../apesdk/sim/sim.h; sourceTree = "<group>"; };
+		4A6C91D72356D5BC00BB2D5A /* territory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = territory.c; path = ../apesdk/sim/territory.c; sourceTree = "<group>"; };
+		4A6C91D82356D5BC00BB2D5A /* tile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tile.c; path = ../apesdk/sim/tile.c; sourceTree = "<group>"; };
+		4A6C91DC2356D5D500BB2D5A /* script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = script.h; path = ../apesdk/script/script.h; sourceTree = "<group>"; };
+		4A6C91DD2356D5D500BB2D5A /* interpret.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = interpret.c; path = ../apesdk/script/interpret.c; sourceTree = "<group>"; };
+		4A6C91DE2356D5D500BB2D5A /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse.c; path = ../apesdk/script/parse.c; sourceTree = "<group>"; };
+		4A6C92202356D67C00BB2D5A /* brain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = brain.c; path = ../apesdk/entity/brain.c; sourceTree = "<group>"; };
+		4A6C92212356D67C00BB2D5A /* body.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = body.c; path = ../apesdk/entity/body.c; sourceTree = "<group>"; };
+		4A6C92222356D67C00BB2D5A /* entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entity.h; path = ../apesdk/entity/entity.h; sourceTree = "<group>"; };
+		4A6C92232356D67C00BB2D5A /* drives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = drives.c; path = ../apesdk/entity/drives.c; sourceTree = "<group>"; };
+		4A6C92242356D67C00BB2D5A /* entity_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entity_internal.h; path = ../apesdk/entity/entity_internal.h; sourceTree = "<group>"; };
+		4A6C92252356D67C00BB2D5A /* speak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = speak.c; path = ../apesdk/entity/speak.c; sourceTree = "<group>"; };
+		4A6C92262356D67C00BB2D5A /* food.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = food.c; path = ../apesdk/entity/food.c; sourceTree = "<group>"; };
+		4A6C92272356D67C00BB2D5A /* being.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = being.c; path = ../apesdk/entity/being.c; sourceTree = "<group>"; };
+		4A6C92282356D67C00BB2D5A /* episodic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = episodic.c; path = ../apesdk/entity/episodic.c; sourceTree = "<group>"; };
+		4A6C92292356D67C00BB2D5A /* social.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = social.c; path = ../apesdk/entity/social.c; sourceTree = "<group>"; };
+		4A6C923F2356D7B400BB2D5A /* loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = loop.c; path = ../apesdk/universe/loop.c; sourceTree = "<group>"; };
+		4A6C92402356D7B400BB2D5A /* transfer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transfer.c; path = ../apesdk/universe/transfer.c; sourceTree = "<group>"; };
+		4A6C92412356D7B400BB2D5A /* universe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = universe.h; path = ../apesdk/universe/universe.h; sourceTree = "<group>"; };
+		4A6C92422356D7B400BB2D5A /* command.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = command.c; path = ../apesdk/universe/command.c; sourceTree = "<group>"; };
+		4A6C92432356D7B400BB2D5A /* sim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sim.c; path = ../apesdk/universe/sim.c; sourceTree = "<group>"; };
+		4A6C92442356D7B400BB2D5A /* universe_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = universe_internal.h; path = ../apesdk/universe/universe_internal.h; sourceTree = "<group>"; };
+		4A6C92492356D7CE00BB2D5A /* shared.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = shared.c; path = ../apesdk/gui/shared.c; sourceTree = "<group>"; };
+		4A6C924A2356D7CE00BB2D5A /* gui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gui.h; path = ../apesdk/gui/gui.h; sourceTree = "<group>"; };
+		4A6C924B2356D7CE00BB2D5A /* message.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = message.c; path = ../apesdk/gui/message.c; sourceTree = "<group>"; };
+		4A6C924C2356D7CE00BB2D5A /* draw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = draw.c; path = ../apesdk/gui/draw.c; sourceTree = "<group>"; };
+		4A6C92512E9A0000BB2D5A00 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = ../apesdk/gui/buffer.c; sourceTree = "<group>"; };
+		4A7CB88125135FDC00ADDFCD /* immune.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = immune.c; path = ../apesdk/entity/immune.c; sourceTree = "<group>"; };
+		4A8F16862541778F0013832D /* graph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = graph.c; path = ../apesdk/render/graph.c; sourceTree = "<group>"; };
+		4A8F16872541778F0013832D /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph.h; path = ../apesdk/render/graph.h; sourceTree = "<group>"; };
+		4AB8FED72BC0965900B311AD /* spacetime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = spacetime.c; path = ../apesdk/sim/spacetime.c; sourceTree = "<group>"; };
+		4AE05E752DA17AC100AB3C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../apesdk/mac/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		4AE05E762DA17AC100AB3C8F /* ASMacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ASMacView.swift; path = ../apesdk/mac/ASMacView.swift; sourceTree = SOURCE_ROOT; };
+		4AE05E772DA17AC100AB3C8F /* ASShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ASShared.swift; path = ../apesdk/mac/ASShared.swift; sourceTree = SOURCE_ROOT; };
+		4AE05E802E9B0000AB3C8F0A /* SimulationBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimulationBindings.swift; path = ../apesdk/mac/SimulationBindings.swift; sourceTree = SOURCE_ROOT; };
+		4AE05E7B2DA17AC500AB3C8F /* Simulated Ape-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simulated Ape-Bridging-Header.h"; sourceTree = "<group>"; };
+		4AE05E7C2DA17C1D00AB3C8F /* ASSimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ASSimulationView.swift; path = ../apesdk/macsim/ASSimulationView.swift; sourceTree = SOURCE_ROOT; };
+		4AFCD5BB24084B9500CD9A43 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = ../apesdk/toolkit/io.c; sourceTree = "<group>"; };
+		4AFCD5BD24084B9500CD9A43 /* vect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vect.c; path = ../apesdk/toolkit/vect.c; sourceTree = "<group>"; };
+		4AFCD5BF24084B9500CD9A43 /* toolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = toolkit.h; path = ../apesdk/toolkit/toolkit.h; sourceTree = "<group>"; };
+		4AFCD5C124084B9500CD9A43 /* object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = object.c; path = ../apesdk/toolkit/object.c; sourceTree = "<group>"; };
+		4AFCD5C224084B9500CD9A43 /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = memory.c; path = ../apesdk/toolkit/memory.c; sourceTree = "<group>"; };
+		4AFCD5C324084B9600CD9A43 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = ../apesdk/toolkit/file.c; sourceTree = "<group>"; };
+		4AFCD5C424084B9600CD9A43 /* math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = math.c; path = ../apesdk/toolkit/math.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6C91B22355965200BB2D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0E8F3D23F97A120045BA17 /* toolkit */ = {
+			isa = PBXGroup;
+			children = (
+				4AFCD5C324084B9600CD9A43 /* file.c */,
+				4AFCD5BB24084B9500CD9A43 /* io.c */,
+				4AFCD5C424084B9600CD9A43 /* math.c */,
+				4AFCD5C224084B9500CD9A43 /* memory.c */,
+				4AFCD5C124084B9500CD9A43 /* object.c */,
+				4AFCD5BF24084B9500CD9A43 /* toolkit.h */,
+				4AFCD5BD24084B9500CD9A43 /* vect.c */,
+			);
+			name = toolkit;
+			sourceTree = "<group>";
+		};
+		4A0E8F4C23F97A390045BA17 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				4AE05E752DA17AC100AB3C8F /* AppDelegate.swift */,
+				4AE05E762DA17AC100AB3C8F /* ASMacView.swift */,
+				4AE05E772DA17AC100AB3C8F /* ASShared.swift */,
+				4AE05E802E9B0000AB3C8F0A /* SimulationBindings.swift */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		4A6C91AC2355965200BB2D5A = {
+			isa = PBXGroup;
+			children = (
+				4A6C0DB22818352000EA517B /* shared.h */,
+				4AE05E7B2DA17AC500AB3C8F /* Simulated Ape-Bridging-Header.h */,
+				4A8F16852541776C0013832D /* render */,
+				4A6C91D12356D54000BB2D5A /* sim */,
+				4A6C91D02356D53D00BB2D5A /* script */,
+				4A0E8F4C23F97A390045BA17 /* mac */,
+				4A0E8F3D23F97A120045BA17 /* toolkit */,
+				4A6C91CA2356D52800BB2D5A /* entity */,
+				4A6C91D42356D57900BB2D5A /* macsim */,
+				4A6C91D32356D57200BB2D5A /* universe */,
+				4A6C91D22356D56C00BB2D5A /* gui */,
+				4A6C91B72355965200BB2D5A /* Simulated Ape */,
+				4A6C91B62355965200BB2D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A6C91B62355965200BB2D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C91B52355965200BB2D5A /* Simulated Ape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A6C91B72355965200BB2D5A /* Simulated Ape */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C91BB2355965600BB2D5A /* Assets.xcassets */,
+				4A6C91C02355965600BB2D5A /* Info.plist */,
+				4A6C91C32355965600BB2D5A /* Simulated_Ape.entitlements */,
+			);
+			path = "Simulated Ape";
+			sourceTree = "<group>";
+		};
+		4A6C91CA2356D52800BB2D5A /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				4A7CB88125135FDC00ADDFCD /* immune.c */,
+				4A511848240793DF00AF741A /* skeleton.c */,
+				4A6C92272356D67C00BB2D5A /* being.c */,
+				4A6C92212356D67C00BB2D5A /* body.c */,
+				4A6C92202356D67C00BB2D5A /* brain.c */,
+				4A6C92232356D67C00BB2D5A /* drives.c */,
+				4A6C92242356D67C00BB2D5A /* entity_internal.h */,
+				4A6C92222356D67C00BB2D5A /* entity.h */,
+				4A6C92282356D67C00BB2D5A /* episodic.c */,
+				4A6C92262356D67C00BB2D5A /* food.c */,
+				4A6C92292356D67C00BB2D5A /* social.c */,
+				4A6C92252356D67C00BB2D5A /* speak.c */,
+			);
+			name = entity;
+			sourceTree = "<group>";
+		};
+		4A6C91D02356D53D00BB2D5A /* script */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C91DD2356D5D500BB2D5A /* interpret.c */,
+				4A6C91DE2356D5D500BB2D5A /* parse.c */,
+				4A6C91DC2356D5D500BB2D5A /* script.h */,
+			);
+			name = script;
+			sourceTree = "<group>";
+		};
+		4A6C91D12356D54000BB2D5A /* sim */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C0DAD2818315700EA517B /* audio.c */,
+				4A6C0DAE2818315700EA517B /* console.c */,
+				4A6C91D52356D5BC00BB2D5A /* land.c */,
+				4A6C91D62356D5BC00BB2D5A /* sim.h */,
+				4AB8FED72BC0965900B311AD /* spacetime.c */,
+				4A6C91D72356D5BC00BB2D5A /* territory.c */,
+				4A6C91D82356D5BC00BB2D5A /* tile.c */,
+			);
+			name = sim;
+			sourceTree = "<group>";
+		};
+		4A6C91D22356D56C00BB2D5A /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C924C2356D7CE00BB2D5A /* draw.c */,
+				4A6C924A2356D7CE00BB2D5A /* gui.h */,
+				4A6C924B2356D7CE00BB2D5A /* message.c */,
+				4A6C92492356D7CE00BB2D5A /* shared.c */,
+			);
+			name = gui;
+			sourceTree = "<group>";
+		};
+		4A6C91D32356D57200BB2D5A /* universe */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C92422356D7B400BB2D5A /* command.c */,
+				4A6C923F2356D7B400BB2D5A /* loop.c */,
+				4A6C92432356D7B400BB2D5A /* sim.c */,
+				4A6C92402356D7B400BB2D5A /* transfer.c */,
+				4A6C92442356D7B400BB2D5A /* universe_internal.h */,
+				4A6C92412356D7B400BB2D5A /* universe.h */,
+			);
+			name = universe;
+			sourceTree = "<group>";
+		};
+		4A6C91D42356D57900BB2D5A /* macsim */ = {
+			isa = PBXGroup;
+			children = (
+				4AE05E7C2DA17C1D00AB3C8F /* ASSimulationView.swift */,
+				4A32507D235CB09500C27212 /* apesdk.xib */,
+			);
+			name = macsim;
+			sourceTree = "<group>";
+		};
+		4A8F16852541776C0013832D /* render */ = {
+			isa = PBXGroup;
+			children = (
+				4A8F16862541778F0013832D /* graph.c */,
+				4A8F16872541778F0013832D /* graph.h */,
+			);
+			name = render;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A6C91B42355965200BB2D5A /* Simulated Ape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6C91C62355965600BB2D5A /* Build configuration list for PBXNativeTarget "Simulated Ape" */;
+			buildPhases = (
+				4A6C91B12355965200BB2D5A /* Sources */,
+				4A6C91B22355965200BB2D5A /* Frameworks */,
+				4A6C91B32355965200BB2D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simulated Ape";
+			productName = "Simulated Ape";
+			productReference = 4A6C91B52355965200BB2D5A /* Simulated Ape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6C91AD2355965200BB2D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+				ORGANIZATIONNAME = "Thomas Barbalet";
+				TargetAttributes = {
+					4A6C91B42355965200BB2D5A = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = 4A6C91B02355965200BB2D5A /* Build configuration list for PBXProject "Simulated Ape" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A6C91AC2355965200BB2D5A;
+			productRefGroup = 4A6C91B62355965200BB2D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A6C91B42355965200BB2D5A /* Simulated Ape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A6C91B32355965200BB2D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6C91BC2355965600BB2D5A /* Assets.xcassets in Resources */,
+				4A32507E235CB09500C27212 /* apesdk.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6C91B12355965200BB2D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFCD5CC24084B9600CD9A43 /* file.c in Sources */,
+				4AFCD5CD24084B9600CD9A43 /* math.c in Sources */,
+				4AB8FED82BC0965900B311AD /* spacetime.c in Sources */,
+				4A6C922D2356D67C00BB2D5A /* speak.c in Sources */,
+				4A6C92302356D67C00BB2D5A /* episodic.c in Sources */,
+				4A8F16882541778F0013832D /* graph.c in Sources */,
+				4A6C924D2356D7CE00BB2D5A /* shared.c in Sources */,
+				4A6C92502E9A0000BB2D5A00 /* buffer.c in Sources */,
+				4A7CB88225135FDC00ADDFCD /* immune.c in Sources */,
+				4A6C92472356D7B400BB2D5A /* command.c in Sources */,
+				4A511849240793DF00AF741A /* skeleton.c in Sources */,
+				4AFCD5C824084B9600CD9A43 /* vect.c in Sources */,
+				4A6C924F2356D7CE00BB2D5A /* draw.c in Sources */,
+				4A6C922B2356D67C00BB2D5A /* body.c in Sources */,
+				4A6C924E2356D7CE00BB2D5A /* message.c in Sources */,
+				4A6C92482356D7B400BB2D5A /* sim.c in Sources */,
+				4A6C92312356D67C00BB2D5A /* social.c in Sources */,
+				4A6C92462356D7B400BB2D5A /* transfer.c in Sources */,
+				4A6C922E2356D67C00BB2D5A /* food.c in Sources */,
+				4A6C91DA2356D5BC00BB2D5A /* territory.c in Sources */,
+				4AE05E7F2DA17C1D00AB3C8F /* ASSimulationView.swift in Sources */,
+				4A6C91DF2356D5D500BB2D5A /* interpret.c in Sources */,
+				4AFCD5CB24084B9600CD9A43 /* memory.c in Sources */,
+				4A6C0DAF2818315700EA517B /* audio.c in Sources */,
+				4A6C0DB02818315700EA517B /* console.c in Sources */,
+				4AFCD5CA24084B9600CD9A43 /* object.c in Sources */,
+				4A6C922F2356D67C00BB2D5A /* being.c in Sources */,
+				4A6C91DB2356D5BC00BB2D5A /* tile.c in Sources */,
+				4AFCD5C624084B9600CD9A43 /* io.c in Sources */,
+				4A6C91D92356D5BC00BB2D5A /* land.c in Sources */,
+				4A6C91E02356D5D500BB2D5A /* parse.c in Sources */,
+				4AE05E782DA17AC100AB3C8F /* AppDelegate.swift in Sources */,
+				4AE05E792DA17AC100AB3C8F /* ASShared.swift in Sources */,
+				4AE05E7A2DA17AC100AB3C8F /* ASMacView.swift in Sources */,
+				4AE05E812E9B0000AB3C8F0A /* SimulationBindings.swift in Sources */,
+				4A6C92452356D7B400BB2D5A /* loop.c in Sources */,
+				4A6C922A2356D67C00BB2D5A /* brain.c in Sources */,
+				4A6C922C2356D67C00BB2D5A /* drives.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A6C91C42355965600BB2D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A6C91C52355965600BB2D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4A6C91C72355965600BB2D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Simulated Ape/Simulated_Ape.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Simulated Ape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apesdk.Simulated-Ape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Simulated Ape-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4A6C91C82355965600BB2D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Simulated Ape/Simulated_Ape.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Simulated Ape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apesdk.Simulated-Ape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Simulated Ape-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6C91B02355965200BB2D5A /* Build configuration list for PBXProject "Simulated Ape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6C91C42355965600BB2D5A /* Debug */,
+				4A6C91C52355965600BB2D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6C91C62355965600BB2D5A /* Build configuration list for PBXNativeTarget "Simulated Ape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6C91C72355965600BB2D5A /* Debug */,
+				4A6C91C82355965600BB2D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6C91AD2355965200BB2D5A /* Project object */;
+}

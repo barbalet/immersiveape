@@ -41,6 +41,7 @@
 		4AE05E7A2DA17AC100AB3C8F /* ASMacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E762DA17AC100AB3C8F /* ASMacView.swift */; };
 		4AE05E7F2DA17C1D00AB3C8F /* ASSimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E7C2DA17C1D00AB3C8F /* ASSimulationView.swift */; };
 		4AE05E812E9B0000AB3C8F0A /* SimulationBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE05E802E9B0000AB3C8F0A /* SimulationBindings.swift */; };
+		4B0A4B7C2F00000300ABCDEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0A4B7B2F00000300ABCDEF /* main.swift */; };
 		4AFCD5C624084B9600CD9A43 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5BB24084B9500CD9A43 /* io.c */; };
 		4AFCD5C824084B9600CD9A43 /* vect.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5BD24084B9500CD9A43 /* vect.c */; };
 		4AFCD5CA24084B9600CD9A43 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AFCD5C124084B9500CD9A43 /* object.c */; };
@@ -97,6 +98,7 @@
 		4AE05E802E9B0000AB3C8F0A /* SimulationBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimulationBindings.swift; path = ../apesdk/mac/SimulationBindings.swift; sourceTree = SOURCE_ROOT; };
 		4AE05E7B2DA17AC500AB3C8F /* Simulated Ape-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simulated Ape-Bridging-Header.h"; sourceTree = "<group>"; };
 		4AE05E7C2DA17C1D00AB3C8F /* ASSimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ASSimulationView.swift; path = ../apesdk/macsim/ASSimulationView.swift; sourceTree = SOURCE_ROOT; };
+		4B0A4B7B2F00000300ABCDEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AFCD5BB24084B9500CD9A43 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = ../apesdk/toolkit/io.c; sourceTree = "<group>"; };
 		4AFCD5BD24084B9500CD9A43 /* vect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vect.c; path = ../apesdk/toolkit/vect.c; sourceTree = "<group>"; };
 		4AFCD5BF24084B9500CD9A43 /* toolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = toolkit.h; path = ../apesdk/toolkit/toolkit.h; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				4A6C91BB2355965600BB2D5A /* Assets.xcassets */,
 				4A6C91C02355965600BB2D5A /* Info.plist */,
 				4A6C91C32355965600BB2D5A /* Simulated_Ape.entitlements */,
+				4B0A4B7B2F00000300ABCDEF /* main.swift */,
 			);
 			path = "Simulated Ape";
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				4AE05E792DA17AC100AB3C8F /* ASShared.swift in Sources */,
 				4AE05E7A2DA17AC100AB3C8F /* ASMacView.swift in Sources */,
 				4AE05E812E9B0000AB3C8F0A /* SimulationBindings.swift in Sources */,
+				4B0A4B7C2F00000300ABCDEF /* main.swift in Sources */,
 				4A6C92452356D7B400BB2D5A /* loop.c in Sources */,
 				4A6C922A2356D67C00BB2D5A /* brain.c in Sources */,
 				4A6C922C2356D67C00BB2D5A /* drives.c in Sources */,

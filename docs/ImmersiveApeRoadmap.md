@@ -1,6 +1,14 @@
 # Immersive Ape Roadmap
 
-Immersive Ape is being structured as a 100-cycle climb toward a playable demo, with each cycle intended to land a shippable increment rather than a speculative rewrite.
+## Goal
+
+The aim is to technically conclude the visualization by filling most of the graphics environment with thick ground cover and at least two levels of alpha vegetation reaching the skyline, so shafts of light can cut through the layered foliage. Movement should then read through those alpha interactions as well as through the motion of the ground cover itself.
+
+The aim of the visualization is closer to the movie Predator than to a broad UI- or systems-led demo.
+
+## Reset Direction
+
+Immersive Ape is being structured as a 100-cycle climb toward a technically conclusive environmental demo, with each cycle intended to land a shippable increment rather than a speculative rewrite. Completed cycles remain as shipped history; the remaining cycles now narrow onto the dense-cover, layered-alpha, shaft-lit finish described above.
 
 ## Cycle Groups
 
@@ -12,8 +20,8 @@ Immersive Ape is being structured as a 100-cycle climb toward a playable demo, w
 - Cycles 51-60: Translate ApeSDK social systems into spatial storytelling with meeting behaviors, speech effects, memory traces, territory cues, and better visibility of friendships and conflicts.
 - Cycles 61-70: Deepen sky, cloud, lighting, rain, fog, and surf rendering so that weather and time-of-day become major visual systems instead of simple overlays.
 - Cycles 71-80: Improve interaction flow by introducing a proper ape-selection layer, lightweight camera control options, accessibility support, and the first floating-window mode.
-- Cycles 81-90: Add audio, ambience, performance budgeting, LOD tuning, and stability work needed for longer sessions on Mac hardware.
-- Cycles 91-100: Focus on demo readiness with polish, balance, onboarding, regression coverage, packaging, and a vertically complete “playable demo” pass.
+- Cycles 81-90: Add audio, ambience, performance budgeting, LOD tuning, and the runtime headroom needed to support denser foliage scenes on Mac hardware.
+- Cycles 91-100: Use the new stability and performance foundation to redirect the final stretch toward a technical environmental conclusion: dense ground cover, two alpha vegetation layers rising into the skyline, shafted light through those layers, coherent vegetation motion, and one final integrated jungle-render pass.
 
 ## Current State
 
@@ -112,4 +120,10 @@ Immersive Ape is being structured as a 100-cycle climb toward a playable demo, w
 - Cycle 93 carries that stability band into adaptive-confidence readback: the renderer now summarizes how firm the current adaptive-quality outlook is, distinguishing between budget-bound certainty, cooldown-limited caution, still-forming sample evidence, and pressure-backed confidence, and the Mac shell carries that same confidence state through the performance HUD, guide, feedback, and accessibility readback so longer sessions can tell whether the forecasted next move is locked in or still provisional.
 - Cycle 94 carries that stability band into adaptive-threshold readback: the renderer now quantifies how far the session is from the next leaner protective step or richer recovery step, distinguishing between bound limits, live trigger pressure, proof-building recovery watches, and pending sample or cooldown constraints, and the Mac shell carries that same threshold state through the performance HUD, guide, feedback, and accessibility readback so longer sessions can tell exactly what must change before the adaptive outlook flips.
 - Cycle 95 carries that stability band into adaptive-band readback: the renderer now locates the current sample inside the adaptive hold band, distinguishing between guard pressure, lower and upper hold lanes, recovery-side headroom, and rich-bound settle states, and the Mac shell carries that same band state through the performance HUD, guide, feedback, and accessibility readback so longer sessions can see where the session sits between protection and recovery instead of inferring it from thresholds alone.
+- Feature reset after Cycle 95: the final stretch no longer prioritizes more shell-level readback or general demo polish. From this point forward the roadmap narrows onto the technical environment conclusion: thick ground cover, stacked alpha vegetation, shafted light, and coherent whole-scene motion.
+- Cycle 96 begins that reset at ground level: the renderer now layers a denser biome-aware floor pass of grass, sedge, fern, reeds, and scrub-floor growth across most traversable terrain, and carries that same ground-cover state through the scene detail, story, encounter panel, and accessibility summary so the world reads as a living floor instead of exposed terrain dotted with isolated props.
+- Cycle 97 raises the first alpha vegetation field above that floor: the renderer now hangs a low-to-mid foliage veil of alpha fronds, reeds, and leaf sheets through the near and middle distance, with biome-specific gaps and thickness, and carries that same veil state through the scene detail, story, encounter panel, and accessibility summary so the world reads through layered occlusion instead of a mostly open air column above the ground cover.
+- Cycle 98 extends a second alpha vegetation field into the skyline: taller silhouette bands, canopy curtains, and drifting upper foliage now rise behind and above the first veil, and the renderer carries that same skyline-layer state through the scene detail, story, encounter panel, and accessibility summary so the scene reaches the horizon and skyline through two distinct alpha layers instead of stopping at one mid-height foliage pass.
+- Cycle 99 turns those two alpha layers into a light-and-motion system: sun and moon direction now carve shafts, slashes, and broken apertures through both foliage veils while wind, rain, surf push, and nearby ape movement drive synchronized response across the floor cover and alpha layers, and the renderer carries that same dynamics state through the scene detail, story, encounter panel, and accessibility summary so motion reads in the ground, the foliage, and the light at the same time.
+- Cycle 100 completes the technical conclusion: the renderer now drives dense ground cover, the lower veil, the skyline layer, shaft lighting, and whole-scene motion through one shared jungle-composition profile, using budget-aware placement and a benchmark corridor to keep the depth hierarchy readable while carrying that final composition state through the scene detail, story, encounter panel, and accessibility summary, so the 100-cycle climb ends on a technically conclusive environmental visualization rather than an open-ended shell.
 - Future cycles should preserve the Swift-first app structure and only drop into C when the simulation core or low-level bridge genuinely benefits from it.
